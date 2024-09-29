@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2E2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: #FF6666;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.box2 {
+    background-color: #FDDDDD;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.box3 {
+    background-color: #C9A1FF;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.box4 {
+    background-color: #282828;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+}
+
+.box5 {
+    background-color: #C1F1C5;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.box6 {
+    background-color: #FDDDDD;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.box img {
+    width: 50px;
+    height: 50px;
+}
